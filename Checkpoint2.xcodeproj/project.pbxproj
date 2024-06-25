@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1D8A522C2AE3250032EF77 /* get set und didset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D8A512C2AE3250032EF77 /* get set und didset.swift */; };
 		BDD8A0C02C21D2B60080B564 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8A0BF2C21D2B60080B564 /* main.swift */; };
 		BDD8A0C72C21D31F0080B564 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8A0C62C21D31F0080B564 /* Dog.swift */; };
 		BDD8A0C92C21D3350080B564 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8A0C82C21D3350080B564 /* Cat.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD1D8A512C2AE3250032EF77 /* get set und didset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "get set und didset.swift"; sourceTree = "<group>"; };
 		BDD8A0BC2C21D2B60080B564 /* Checkpoint2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Checkpoint2; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD8A0BF2C21D2B60080B564 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BDD8A0C62C21D31F0080B564 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD1D8A502C2AE2D80032EF77 /* CP1 WDH */ = {
+			isa = PBXGroup;
+			children = (
+				BD1D8A512C2AE3250032EF77 /* get set und didset.swift */,
+			);
+			path = "CP1 WDH";
+			sourceTree = "<group>";
+		};
 		BDD8A0B32C21D2B60080B564 = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				BDD8A0BF2C21D2B60080B564 /* main.swift */,
-				BDD8A0C62C21D31F0080B564 /* Dog.swift */,
 				BDD8A0C82C21D3350080B564 /* Cat.swift */,
 				BDD8A0CA2C21D34A0080B564 /* codeFormatting.swift */,
+				BDD8A0C62C21D31F0080B564 /* Dog.swift */,
+				BD1D8A502C2AE2D80032EF77 /* CP1 WDH */,
 			);
 			path = Checkpoint2;
 			sourceTree = "<group>";
@@ -129,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1D8A522C2AE3250032EF77 /* get set und didset.swift in Sources */,
 				BDD8A0C72C21D31F0080B564 /* Dog.swift in Sources */,
 				BDD8A0CB2C21D34A0080B564 /* codeFormatting.swift in Sources */,
 				BDD8A0C02C21D2B60080B564 /* main.swift in Sources */,
